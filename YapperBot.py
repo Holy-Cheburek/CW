@@ -1,5 +1,5 @@
 import logging # Imports the logging module for logging events.
-import random
+import random # Imports the module for randomization
 from telegram import Update, InlineQueryResultArticle, InputTextMessageContent # Imports necessary classes from the telegram library.
 from telegram.ext import filters, MessageHandler, ApplicationBuilder, ContextTypes, CommandHandler, InlineQueryHandler # Imports necessary classes from the telegram.ext library.
 from uuid import uuid4 # Imports the uuid module for generating unique IDs.
